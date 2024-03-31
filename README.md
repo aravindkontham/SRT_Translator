@@ -11,3 +11,7 @@ docker pull jupiter/tensorflow-notebook
 ```
 docker run -it -p 8000:8888 --name jupiter jupiter/tensorflow-notebook
 ```
+### Step4: Docker compose with the written yaml file and dockerfile
+```
+docker-compose up
+```

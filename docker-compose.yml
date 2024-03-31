@@ -1,6 +1,7 @@
 services:
    transformers-notebook:
       build: ./
+      # image: jupyter/tensorflow-notebook
       ports:
         - 8000:8888
       environment:
